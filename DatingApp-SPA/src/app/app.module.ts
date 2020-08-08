@@ -5,11 +5,13 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ValueComponent } from './value/value.component';
+import { MyComponentComponent } from '.f:/DotNetCore Projects/DatingApp/DatingApp-SPA/src/my-component/my-component.component';
 
 @NgModule({
    declarations: [
       AppComponent,
-      ValueComponent
+      ValueComponent,
+      MyComponentComponent
    ],
    imports: [
       BrowserModule,
